@@ -7,7 +7,8 @@ A collection of Python automation projects built using APIs, email, messaging se
 | Project | Description | Concepts |
 |---|---|---|
 | 🎂 [Birthday Wisher](./Birthday-Wisher) | Automatically checks a birthday list, generates a personalized birthday message from random letter templates, and sends it through Gmail SMTP | Pandas, SMTP, Email Automation, Date & Time, File Handling, Randomization |
-| 🌦️ [Rain Alert](./Rain-Alert) | Checks weather forecasts using the OpenWeatherMap API and sends an SMS reminder through Twilio when rain is expected | REST APIs, Requests, JSON, Twilio, SMS Automation, Conditional Logic |
+| 🌦️ [Rain Alert](./Rain-Alert) | Checks weather forecasts using the OpenWeatherMap API and sends an SMS reminder through Twilio when precipitation is expected | REST APIs, Requests, JSON, Twilio, SMS Automation, Conditional Logic |
+| 📈 [Stock News Monitor](./Stock-News-Monitor) | Monitors Tesla's daily stock-price movement and sends SMS alerts with recent news articles when the percentage change exceeds 5% | Alpha Vantage API, NewsAPI, Requests, JSON, Twilio, Financial Data Processing |
 | 🚧 More projects coming soon | More automation projects will be added as I continue learning and building with Python | APIs, Web Scraping, Email Automation, Scheduling |
 
 ## 🧠 Technologies & Concepts
@@ -15,16 +16,18 @@ A collection of Python automation projects built using APIs, email, messaging se
 - Python Automation
 - REST APIs and API Integration
 - HTTP Requests and JSON
-- Weather Data Processing
-- SMS Notifications with Twilio
+- Environment Variables and Secrets Management
 - Email Automation with SMTP
+- SMS Notifications with Twilio
+- Weather Data Processing
+- Stock Market Data Analysis
+- News API Integration
 - Pandas
 - Date and Time Handling
 - File Handling
 - Randomization
 - Conditional Logic
-- Environment Variables and Secrets Management
-- Proxy Configuration
+- Error Handling
 - Scheduling and Automated Workflows
 
 ## 🎯 Purpose
